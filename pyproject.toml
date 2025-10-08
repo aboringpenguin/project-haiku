@@ -6,8 +6,18 @@ authors = [
     {name = "Samuel Legname",email = "sem95@live.it"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13, <4.0"
 dependencies = [
+    "sqlalchemy[asyncio] (>=2.0.43,<3.0.0)",
+    "alembic (>=1.16.5,<2.0.0)",
+    "psycopg-binary (>=3.2.10,<4.0.0)",
+    "psycopg (>=3.2.10,<4.0.0)",
+    "fastapi (>=0.118.1,<0.119.0)",
+    "uvicorn[standard] (>=0.37.0,<0.38.0)",
+    "websockets (>=15.0.1,<16.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "aio-pika (>=9.5.7,<10.0.0)",
+    "redis (>=6.4.0,<7.0.0)"
 ]
 
 
